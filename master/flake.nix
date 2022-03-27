@@ -11,6 +11,7 @@
   inputs.src-cache-master.ref   = "refs/heads/master";
   inputs.src-cache-master.owner = "planety";
   inputs.src-cache-master.repo  = "cached";
+  inputs.src-cache-master.dir   = "";
   inputs.src-cache-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
